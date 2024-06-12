@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="TelaCadastroItem.cs">
+    <Compile Update="AlterarQuantidadeItem.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

@@ -34,7 +34,6 @@ namespace WinFormsApp1
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnCadastrarItem = new System.Windows.Forms.Button();
             this.btnAlterarQuantidadeItem = new System.Windows.Forms.Button();
             this.txtProcessador = new System.Windows.Forms.Label(); 
             this.txtMemoriasFlash = new System.Windows.Forms.Label();
@@ -175,22 +174,15 @@ namespace WinFormsApp1
             this.lblFonteDeAlimentacao.Text = "Fonte de Alimentação";
 
             //Botao na tela, com escrito CadastrarItem
-            this.btnCadastrarItem.Location = new System.Drawing.Point(150, 310);
-            this.btnCadastrarItem.Name = "btnCadastrarItem";
-            this.btnCadastrarItem.Size = new System.Drawing.Size(200, 23);
-            this.btnCadastrarItem.TabIndex = 14;
-            this.btnCadastrarItem.Text = "Cadastrar Item";
-            this.btnCadastrarItem.UseVisualStyleBackColor = true;
-            this.btnCadastrarItem.Click += new System.EventHandler(this.btnCadastrarItem_Click);
-
-            //Botao na tela, com escrito Adicionar ou remover item
-            this.btnAlterarQuantidadeItem.Location = new System.Drawing.Point(30, 310);
+            this.btnAlterarQuantidadeItem.Location = new System.Drawing.Point(150, 310);
             this.btnAlterarQuantidadeItem.Name = "btnAlterarQuantidadeItem";
             this.btnAlterarQuantidadeItem.Size = new System.Drawing.Size(200, 23);
             this.btnAlterarQuantidadeItem.TabIndex = 14;
-            this.btnAlterarQuantidadeItem.Text = "Adicionar ou remover Item";
+            this.btnAlterarQuantidadeItem.Text = "AlterarQuantidadeItem";
             this.btnAlterarQuantidadeItem.UseVisualStyleBackColor = true;
-            this.btnAlterarQuantidadeItem.Click += new System.EventHandler(this.btnCadastrarItem_Click);
+            this.btnAlterarQuantidadeItem.Click += new System.EventHandler(this.btnAlterarQuantidadeItem_click);
+
+            
 
 
 
@@ -200,7 +192,6 @@ namespace WinFormsApp1
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(384, 361);
-            this.Controls.Add(this.btnCadastrarItem);
             this.Controls.Add(this.btnAlterarQuantidadeItem);
             this.Controls.Add(this.lblFonteDeAlimentacao);
             this.Controls.Add(this.lblDissipadoresDeCalor);
@@ -239,7 +230,6 @@ namespace WinFormsApp1
         private System.Windows.Forms.Label lblSoquetesDoProcessador;
         private System.Windows.Forms.Label lblDissipadoresDeCalor;
         private System.Windows.Forms.Label lblFonteDeAlimentacao;
-        private System.Windows.Forms.Button btnCadastrarItem;
         private System.Windows.Forms.Button btnAlterarQuantidadeItem;
     }
 }

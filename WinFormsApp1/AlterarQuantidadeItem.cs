@@ -3,9 +3,9 @@ using System.Windows.Forms;
 
 namespace WinFormsApp1
 {
-    public partial class TelaCadastroItem : Form
+    public partial class AlterarQuantidadeItem : Form
     {
-        public TelaCadastroItem()
+        public AlterarQuantidadeItem()
         {
             InitializeComponent();
         }

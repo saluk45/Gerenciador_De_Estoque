@@ -1,10 +1,8 @@
 ﻿namespace WinFormsApp1
 {
-    partial class TelaCadastroItem
+    partial class AlterarQuantidadeItem
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
+        
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
@@ -28,25 +26,25 @@
         /// </summary>
         private void InitializeComponent()
         {
-            lblCadastroItem = new Label();
+            lblAlterarQuantidadeItem = new Label();
             SuspendLayout();
             // 
             // lblCadastroItem
             // 
-            lblCadastroItem.AutoSize = true;
-            lblCadastroItem.Location = new Point(175, 173);
-            lblCadastroItem.Margin = new Padding(4, 0, 4, 0);
-            lblCadastroItem.Name = "lblCadastroItem";
-            lblCadastroItem.Size = new Size(96, 15);
-            lblCadastroItem.TabIndex = 0;
-            lblCadastroItem.Text = "Você está logado";
+            lblAlterarQuantidadeItem.AutoSize = true;
+            lblAlterarQuantidadeItem.Location = new Point(175, 173);
+            lblAlterarQuantidadeItem.Margin = new Padding(4, 0, 4, 0);
+            lblAlterarQuantidadeItem.Name = "lblTelaAdicionaRemoveItem";
+            lblAlterarQuantidadeItem.Size = new Size(96, 15);
+            lblAlterarQuantidadeItem.TabIndex = 0;
+            lblAlterarQuantidadeItem.Text = "Você está logado";
             // 
             // TelaCadastroItem
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(448, 417);
-            Controls.Add(lblCadastroItem);
+            Controls.Add(lblAlterarQuantidadeItem);
             Margin = new Padding(4, 3, 4, 3);
             Name = "TelaCadastroItem";
             Text = "TelaCadastroItem";
@@ -56,6 +54,6 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lblCadastroItem;
+        private System.Windows.Forms.Label lblAlterarQuantidadeItem;
     }
 }

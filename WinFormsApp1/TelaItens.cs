@@ -10,11 +10,11 @@ namespace WinFormsApp1
             InitializeComponent();
         }
 
-        private void btnCadastrarItem_Click(object sender, EventArgs e)
+        private void btnAlterarQuantidadeItem_click(object sender, EventArgs e)
         {
             // Abre a tela de cadastro de item
-            TelaCadastroItem telaCadastroItem = new TelaCadastroItem();
-            telaCadastroItem.Show();
+            AlterarQuantidadeItem AlterarQuantidadeItem = new AlterarQuantidadeItem();
+            AlterarQuantidadeItem.Show();
         }
     }
 }
